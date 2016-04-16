@@ -1,0 +1,32 @@
+	#inicio {
+		text-align:center;
+	}
+	
+	#perfil img{
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		float:left;
+	}
+	#perfil h3 {
+		text-align: left;
+		font-family: Roboto-condensed;
+		font-size: 20px;
+		padding: 10px;
+	}
+	
+	@media (min-width:1024px) {
+		#perfil .contenedor {
+			width: 1000px;
+			height:auto;
+			display: block;
+			justify-content: center;
+			
+		}
+		#perfil img {
+			width: 200 px;
+			#padding: 10px;
+			
+			float:left;
+		}
+	}
