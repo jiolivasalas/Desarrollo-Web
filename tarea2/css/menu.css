@@ -1,0 +1,28 @@
+#menu {
+		display:inline;
+		float:right;
+		padding:3px;
+
+}
+
+
+@media (min-width:960px){
+	#menu {
+		width:100%;
+		height:auto;
+		margin:auto;
+		float:left;
+		background:#54F;
+	}
+	#menu a{
+		display:inline;
+		float:right;
+		padding:3px;
+		text-decoration: none;
+		color:black;
+		
+	}
+	#menu a:hover {
+		background-color:#47F;
+	}
+}
